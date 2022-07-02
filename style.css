@@ -181,5 +181,88 @@ p {
 }
 
 .home-picture {
-  width:50%
+  width:50%;
+  height: auto
+}
+
+@media (min-width: 1400px) {
+}
+
+.home-text {
+  line-height: 100%;
+  font-size: 100%;
+  width: 50px
+}
+
+  @media (max-width: 400px)  {
+
+   .home-text {
+        line-height: 100%;
+        font-size: 100%;
+    }
+
+    .home-picture {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 500px)  {
+
+    .home-text {
+         line-height: 100%;
+         font-size: 70%;
+     }
+
+     .home-picture {
+      width: 100%;
+    }
+   }
+ 
+
+@media (min-width: 655px) {
+
+  .home-text {
+    line-height: 100%;
+    font-size: 90%;
+  }
+
+  .home-picture {
+    width: 100%;
+  }
+}
+
+@media (min-width: 742px) {
+
+    .home-text {
+        line-height: 125%;
+        font-size: 90%;
+    }
+
+    .home-picture {
+      width: 100%;
+    }
+}
+
+@media (min-width: 815px)  {
+
+  .home-text {
+      line-height: 150%;
+      font-size: 100%;
+  }
+
+  .home-picture {
+    width: 50%;
+  }
+}
+
+@media (min-width: 965px)  {
+
+  .home-text {
+      line-height: 200%;
+      font-size: 125%;
+  }
+
+  .home-picture {
+    width: 50%;
+  }
 }
