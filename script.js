@@ -9,7 +9,7 @@ const faders = document.querySelectorAll('.fade-in');
 // if (this.matchMedia("(min-width: 768px)").matches)
 
 const appearOptions = {
-  threshold: 1,
+  threshold: 0.5,
   rootMargin: "0px 0px -50px 0px"
 };
 
