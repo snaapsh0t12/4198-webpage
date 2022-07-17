@@ -194,6 +194,10 @@ p {
   transition: opacity 250ms ease-in;
 }
 
+.fade-in-slow {
+  transition: opacity 400ms ease-in;
+}
+
 .fade-in.appear {
   opacity: 1;
 }
