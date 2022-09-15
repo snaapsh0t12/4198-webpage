@@ -3,10 +3,6 @@
   color: white;
 }
 
-.hmmm {
-background-color: #24192b;
-}
-
 .waconia {
   display: flex;
   align-items: center;
@@ -26,7 +22,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #24192b;
   /* background-color: rgb(37, 42, 46); */
 }
 
@@ -93,59 +88,59 @@ p {
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #cbd3da;
-  font-size: 1.1em;
-  position: relative;
-}
-
-.navbar .navbar-nav .nav-link:hover {
-  color: #cbd3da;
-}
-
-.navbar .navbar-nav .nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #cbd3da;
-  color: transparent;
-  width: 0%;
-  height: 3px;
-  transition: all 0.5s;
-}
-
-.navbar .navbar-nav .nav-link:hover::after {
-  width: 100%;
-}
-
-.navbar .navbar-nav .nav-link.special::after {
-  content: '';
-  width: 100%;
-}
-
-.pointer {
-  cursor: pointer;
-}
-
-.dropdown-divider {
-  width: 80%;
-  margin: auto;
-}
-
-.dropdown-item {
-  text-align: center;
-}
-
-.dropdown-item:hover {
-    background-color: #54376d;
-}
-
-.dropdown-center {
-  right: auto;
-  left: -30%;
-}
+    color: #cbd3da;
+    font-size: 1.1em;
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #cbd3da;
+  }
+  
+  .navbar .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #cbd3da;
+    color: transparent;
+    width: 0%;
+    height: 3px;
+    transition: all 0.5s;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .navbar .navbar-nav .nav-link.special::after {
+    content: '';
+    width: 100%;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .dropdown-divider {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .dropdown-item {
+    text-align: center;
+  }
+  
+  .dropdown-item:hover {
+      background-color: #54376d;
+  }
+  
+  .dropdown-center {
+    right: auto;
+    left: -30%;
+  }
 
 .ms-3 {
   margin-left: 1rem !important;
@@ -171,6 +166,11 @@ p {
   width: fit-content;
   text-align: center;
   margin:0 auto;
+}
+
+.gradient {
+    background-image: linear-gradient(to top, #130810, #271121);
+    height: 100%
 }
 
 @media (min-width: 300px) {
