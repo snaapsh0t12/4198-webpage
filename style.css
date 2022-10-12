@@ -202,18 +202,27 @@ p {
   opacity: 1;
 }
 
+
 .home-picture {
   width:50%;
-  height: auto
+  height: auto;
 }
+
 
 @media (min-width: 1400px) {
 }
 
 .home-text {
+  text-align: left;
   line-height: 100%;
   font-size: 90%;
-  width: 50px
+  width: 50px;
+}
+
+.media-body {
+  display: block;
+  margin-left: auto;
+  margin-top: -30%;
 }
 
   @media (max-width: 400px)  {
